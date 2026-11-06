@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,6 +26,7 @@ footer{padding:27px 0 38px;display:flex;justify-content:space-between;gap:18px;c
 @media(max-width:800px){.hero{grid-template-columns:1fr .75fr;gap:28px;min-height:auto;padding:75px 0}.skill-grid,.learning-grid{grid-template-columns:1fr 1fr}.about-grid{grid-template-columns:1fr}.navlinks{gap:15px}}
 @media(max-width:600px){.wrap{width:calc(100% - 30px)}nav{height:auto;min-height:70px;align-items:flex-start;flex-direction:column;padding:13px 0;gap:7px}.navlinks{width:100%;overflow-x:auto;padding-bottom:5px;white-space:nowrap;font-size:.84rem}.nav-cta{display:none}.hero{grid-template-columns:1fr;padding:62px 0 70px;gap:40px}.hero-copy{font-size:1rem}.profile-wrap{max-width:290px}.skill-grid,.learning-grid,.project-grid{grid-template-columns:1fr}section{padding:64px 0}.contact-panel{align-items:flex-start;flex-direction:column;padding:25px}.contact-links{width:100%}.contact-links .btn{flex:1}footer{flex-direction:column}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
+.email-address{margin-top:10px!important;font-size:.9rem}.email-address a{color:var(--mint);text-decoration:underline;text-underline-offset:3px}
 </style>
 </head>
 <body>
@@ -41,7 +43,7 @@ footer{padding:27px 0 38px;display:flex;justify-content:space-between;gap:18px;c
     <p class="hero-copy">I'm <strong>Fahim Hossain</strong> — a Software Engineer &amp; Cybersecurity Enthusiast passionate about creating useful software, understanding how systems work, and building technology with purpose.</p>
     <div class="actions">
       <a class="btn primary" href="#projects">Explore my work <span>↗</span></a>
-      <a class="btn" href="mailto:hossainwork171@gmail.com">Get in touch</a>
+      <a class="btn" href="https://mail.google.com/mail/?view=cm&fs=1&to=hossainwork171@gmail.com" target="_blank" rel="noopener noreferrer">Get in touch</a>
     </div>
   </div>
   <div class="profile-wrap"><div class="profile-glow"></div><div class="profile-card">
@@ -96,16 +98,17 @@ footer{padding:27px 0 38px;display:flex;justify-content:space-between;gap:18px;c
 
 <section id="contact"><div class="wrap">
   <div class="contact-panel">
-    <div><div class="kicker">Get in touch</div><h2>Let's build something meaningful.</h2><p>Open to collaboration, learning opportunities, and connecting with fellow developers.</p></div>
+    <div><div class="kicker">Get in touch</div><h2>Let's build something meaningful.</h2><p>Open to collaboration, learning opportunities, and connecting with fellow developers.</p><p class="email-address">Email: <a href="https://mail.google.com/mail/?view=cm&fs=1&to=hossainwork171@gmail.com" target="_blank" rel="noopener noreferrer">hossainwork171@gmail.com</a></p></div>
     <div class="contact-links">
-      <a class="btn primary" href="mailto:hossainwork171@gmail.com">✉ Email</a>
+      <a class="btn primary" href="https://mail.google.com/mail/?view=cm&fs=1&to=hossainwork171@gmail.com" target="_blank" rel="noopener noreferrer">✉ Email</a>
       <a class="btn" href="https://github.com/fahimhossain171" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
       <a class="btn" href="https://www.linkedin.com/in/fahim-hossain17/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
     </div>
   </div>
 </div></section>
 </main>
-<footer class="wrap"><span>© <span id="year"></span> Fahim Hossain. All rights reserved.</span><div class="social-row"><a href="https://github.com/fahimhossain171" target="_blank" rel="noopener noreferrer">GitHub</a><a href="https://www.linkedin.com/in/fahim-hossain17/" target="_blank" rel="noopener noreferrer">LinkedIn</a><a href="mailto:hossainwork171@gmail.com">Email</a></div></footer>
+<footer class="wrap"><span>© <span id="year"></span> Fahim Hossain. All rights reserved.</span><div class="social-row"><a href="https://github.com/fahimhossain171" target="_blank" rel="noopener noreferrer">GitHub</a><a href="https://www.linkedin.com/in/fahim-hossain17/" target="_blank" rel="noopener noreferrer">LinkedIn</a><a href="https://mail.google.com/mail/?view=cm&fs=1&to=hossainwork171@gmail.com" target="_blank" rel="noopener noreferrer">Email</a></div></footer>
 <script>document.getElementById('year').textContent=new Date().getFullYear();</script>
 </body>
 </html>
+
