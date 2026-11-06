@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Fahim Hossain — Software Engineer and Cybersecurity Enthusiast. Explore projects, skills and contact information.">
+<meta name="theme-color" content="#080d19">
+<title>Fahim Hossain | Software Engineer & Cybersecurity Enthusiast</title>
+<style>
+:root{--bg:#080d19;--panel:#101a2b;--panel2:#142239;--text:#edf3ff;--muted:#9cabc4;--blue:#83a4ff;--mint:#69e3c0;--line:rgba(190,210,245,.13);--max:1120px}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:88px}body{margin:0;background:radial-gradient(ellipse at 82% 4%,rgba(88,119,255,.17),transparent 32%),radial-gradient(ellipse at 8% 45%,rgba(53,210,169,.08),transparent 27%),var(--bg);color:var(--text);font:16px/1.7 Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}
+a{color:inherit;text-decoration:none}.wrap{width:min(var(--max),calc(100% - 44px));margin:auto}
+header{position:sticky;top:0;z-index:10;background:rgba(8,13,25,.84);backdrop-filter:blur(18px);border-bottom:1px solid var(--line)}
+nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{font-size:1.2rem;font-weight:850;letter-spacing:-.06em}.brand b{color:var(--blue)}.navlinks{display:flex;align-items:center;gap:27px;color:var(--muted);font-size:.91rem}.navlinks a:hover{color:var(--mint)}.nav-cta{border:1px solid var(--line);border-radius:10px;padding:8px 13px;color:var(--text)}
+.hero{min-height:660px;display:grid;grid-template-columns:1.35fr .75fr;align-items:center;gap:70px;padding:92px 0 100px}.kicker{color:var(--mint);font-size:.78rem;letter-spacing:.19em;text-transform:uppercase;font-weight:800}.kicker:before{content:"";display:inline-block;width:23px;height:1px;background:var(--mint);vertical-align:middle;margin-right:10px}
+h1{font-size:clamp(3rem,7vw,5.7rem);line-height:1.02;letter-spacing:-.075em;margin:18px 0 23px}h1 span{color:var(--blue)}.hero-copy{max-width:660px;color:var(--muted);font-size:1.1rem}.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;border-radius:11px;padding:12px 18px;font-weight:750;border:1px solid var(--line);transition:transform .2s,border-color .2s}.btn:hover{transform:translateY(-3px);border-color:var(--blue)}.btn.primary{background:var(--blue);border-color:var(--blue);color:#091226}.btn svg{width:17px;height:17px}
+.profile-wrap{position:relative;max-width:360px;margin:auto;width:100%}.profile-glow{position:absolute;inset:10% -8%;background:linear-gradient(135deg,rgba(105,227,192,.22),rgba(131,164,255,.25));filter:blur(45px);border-radius:50%}.profile-card{position:relative;padding:18px;border-radius:26px;border:1px solid rgba(194,211,245,.2);background:linear-gradient(150deg,rgba(22,36,60,.96),rgba(12,20,35,.96));box-shadow:0 30px 90px rgba(0,0,0,.35);transform:rotate(2deg)}.portrait{width:100%;aspect-ratio:4/4.35;border-radius:18px;overflow:hidden;background:linear-gradient(145deg,#1c3150,#111b2d);display:grid;place-items:center;position:relative}.portrait img{width:100%;height:100%;object-fit:cover;display:block}.portrait-fallback{position:absolute;inset:0;display:grid;place-items:center;font-size:4.2rem;font-weight:900;letter-spacing:-.08em;color:var(--mint);background:radial-gradient(circle at 50% 35%,rgba(131,164,255,.22),transparent 45%),linear-gradient(145deg,#1c3150,#111b2d)}.portrait.has-image .portrait-fallback{display:none}.profile-meta{padding:17px 5px 3px}.profile-meta strong{display:block;font-size:1.15rem}.profile-meta span{color:var(--muted);font-size:.9rem}.status{display:inline-flex;align-items:center;gap:8px;margin-top:12px;color:#b9f4df;font-size:.78rem}.status i{width:7px;height:7px;border-radius:50%;background:var(--mint);box-shadow:0 0 12px var(--mint)}
+section{padding:82px 0;border-top:1px solid var(--line)}.section-top{margin-bottom:32px}.section-top .kicker{font-size:.73rem}.section-top h2{font-size:clamp(2rem,4vw,3rem);letter-spacing:-.06em;line-height:1.12;margin:10px 0}.section-top p{color:var(--muted);margin:0;max-width:660px}.about-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:18px}.card{background:linear-gradient(145deg,rgba(18,30,50,.96),rgba(13,22,38,.96));border:1px solid var(--line);border-radius:18px;padding:27px}.card p{color:var(--muted);margin:0}.highlights{display:grid;gap:16px}.highlight{display:flex;gap:13px;align-items:flex-start;color:var(--muted)}.highlight .symbol{width:35px;height:35px;flex:0 0 35px;display:grid;place-items:center;background:var(--panel2);border:1px solid var(--line);border-radius:10px;color:var(--mint);font-weight:800}.highlight strong{display:block;color:var(--text);font-size:.95rem}
+.skill-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.skill-card h3{margin:0 0 16px;font-size:1.05rem}.tags{display:flex;flex-wrap:wrap;gap:8px}.tag{font-size:.82rem;padding:6px 10px;border:1px solid var(--line);border-radius:999px;background:rgba(20,34,57,.8);color:#d5e0f5}
+.project-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:17px}.project{min-height:245px;display:flex;flex-direction:column;transition:transform .2s,border-color .2s}.project:hover{transform:translateY(-4px);border-color:rgba(131,164,255,.5)}.project-top{display:flex;justify-content:space-between;align-items:center;color:var(--mint);font-size:.75rem;font-weight:800;letter-spacing:.12em}.project-icon{width:38px;height:38px;border-radius:11px;background:var(--panel2);display:grid;place-items:center;color:var(--blue);font-size:1.15rem}.project h3{font-size:1.2rem;margin:16px 0 8px}.project p{font-size:.93rem;flex:1}.project .tags{margin-top:19px}
+.learning-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.learning-card h3{margin:0 0 8px}.learning-card p{font-size:.92rem}
+.contact-panel{display:flex;align-items:center;justify-content:space-between;gap:30px;padding:34px;border:1px solid var(--line);border-radius:22px;background:radial-gradient(ellipse at 90% 0%,rgba(131,164,255,.16),transparent 50%),linear-gradient(120deg,#111e33,#0d1728)}.contact-panel h2{font-size:clamp(1.8rem,4vw,2.6rem);letter-spacing:-.05em;margin:7px 0}.contact-panel p{color:var(--muted);margin:0}.contact-links{display:flex;flex-wrap:wrap;gap:10px}.contact-links .btn{font-size:.88rem}
+footer{padding:27px 0 38px;display:flex;justify-content:space-between;gap:18px;color:var(--muted);font-size:.85rem}.social-row{display:flex;gap:18px}.social-row a:hover{color:var(--mint)}
+@media(max-width:800px){.hero{grid-template-columns:1fr .75fr;gap:28px;min-height:auto;padding:75px 0}.skill-grid,.learning-grid{grid-template-columns:1fr 1fr}.about-grid{grid-template-columns:1fr}.navlinks{gap:15px}}
+@media(max-width:600px){.wrap{width:calc(100% - 30px)}nav{height:auto;min-height:70px;align-items:flex-start;flex-direction:column;padding:13px 0;gap:7px}.navlinks{width:100%;overflow-x:auto;padding-bottom:5px;white-space:nowrap;font-size:.84rem}.nav-cta{display:none}.hero{grid-template-columns:1fr;padding:62px 0 70px;gap:40px}.hero-copy{font-size:1rem}.profile-wrap{max-width:290px}.skill-grid,.learning-grid,.project-grid{grid-template-columns:1fr}section{padding:64px 0}.contact-panel{align-items:flex-start;flex-direction:column;padding:25px}.contact-links{width:100%}.contact-links .btn{flex:1}footer{flex-direction:column}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
+</style>
+</head>
+<body>
+<header><nav class="wrap">
+  <a class="brand" href="#home">FAHIM<b>.</b></a>
+  <div class="navlinks"><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#learning">Learning</a><a href="#contact">Contact</a></div>
+  <a class="nav-cta" href="#contact">Let's talk ↗</a>
+</nav></header>
+<main>
+<div class="wrap hero" id="home">
+  <div>
+    <div class="kicker">Hello, welcome to my portfolio</div>
+    <h1>Building ideas<br>into <span>reality.</span></h1>
+    <p class="hero-copy">I'm <strong>Fahim Hossain</strong> — a Software Engineer &amp; Cybersecurity Enthusiast passionate about creating useful software, understanding how systems work, and building technology with purpose.</p>
+    <div class="actions">
+      <a class="btn primary" href="#projects">Explore my work <span>↗</span></a>
+      <a class="btn" href="mailto:hossainwork171@gmail.com">Get in touch</a>
+    </div>
+  </div>
+  <div class="profile-wrap"><div class="profile-glow"></div><div class="profile-card">
+    <div class="portrait" id="portrait">
+      <!-- Add your own image in the same folder as this file and name it profile.jpg. -->
+      <img src="profile.jpg" alt="Portrait of Fahim Hossain" onload="document.getElementById('portrait').classList.add('has-image')" onerror="this.style.display='none'">
+      <div class="portrait-fallback" aria-hidden="true">FH</div>
+    </div>
+    <div class="profile-meta"><strong>Fahim Hossain</strong><span>Software Engineer &amp; Cybersecurity Enthusiast</span><div class="status"><i></i> Always learning &amp; building</div></div>
+  </div></div>
+</div>
+
+<section id="about"><div class="wrap">
+  <div class="section-top"><div class="kicker">About me</div><h2>Curiosity drives what I create.</h2><p>A little background, what I enjoy, and the areas I'm exploring.</p></div>
+  <div class="about-grid">
+    <div class="card"><p>I'm a software engineering student who enjoys turning concepts into practical projects. My learning journey spans programming, software design, databases, web development, networking, and cybersecurity. I like understanding not just how to make something work, but why it works — and how to make it better, more reliable, and more secure.</p></div>
+    <div class="card highlights">
+      <div class="highlight"><div class="symbol">01</div><div><strong>Build &amp; create</strong>Practical applications and web experiences</div></div>
+      <div class="highlight"><div class="symbol">02</div><div><strong>Explore &amp; secure</strong>Networking and cybersecurity fundamentals</div></div>
+      <div class="highlight"><div class="symbol">03</div><div><strong>Learn &amp; improve</strong>Consistent practice and problem solving</div></div>
+    </div>
+  </div>
+</div></section>
+
+<section id="skills"><div class="wrap">
+  <div class="section-top"><div class="kicker">My toolkit</div><h2>Skills &amp; technologies</h2><p>Technologies and tools I've studied or used in learning and project work.</p></div>
+  <div class="skill-grid">
+    <div class="card skill-card"><h3>Programming</h3><div class="tags"><span class="tag">Python</span><span class="tag">Java</span><span class="tag">C</span><span class="tag">C++</span><span class="tag">JavaScript</span></div></div>
+    <div class="card skill-card"><h3>Web &amp; databases</h3><div class="tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">React</span><span class="tag">Node.js</span><span class="tag">MySQL</span><span class="tag">MongoDB</span></div></div>
+    <div class="card skill-card"><h3>Tools &amp; security</h3><div class="tags"><span class="tag">Git &amp; GitHub</span><span class="tag">Linux</span><span class="tag">Nmap</span><span class="tag">Burp Suite</span><span class="tag">AWS</span><span class="tag">Docker</span></div></div>
+  </div>
+</div></section>
+
+<section id="projects"><div class="wrap">
+  <div class="section-top"><div class="kicker">Selected work</div><h2>Projects &amp; practice</h2><p>A selection of academic and personal projects. Repository and demo links can be added as they become available.</p></div>
+  <div class="project-grid">
+    <article class="card project"><div class="project-top"><span>PROJECT 01</span><span class="project-icon">⌘</span></div><h3>Security Log Analyzer</h3><p>A Python project focused on parsing, structuring, and analysing security events from log data to support clearer investigation and monitoring workflows.</p><div class="tags"><span class="tag">Python</span><span class="tag">Pydantic</span><span class="tag">SQLAlchemy</span></div></article>
+    <article class="card project"><div class="project-top"><span>PROJECT 02</span><span class="project-icon">▤</span></div><h3>Banking Transaction Management System</h3><p>A console-based banking application with user and staff records, transaction handling, and file-based data storage.</p><div class="tags"><span class="tag">C</span><span class="tag">File handling</span></div></article>
+    <article class="card project"><div class="project-top"><span>PROJECT 03</span><span class="project-icon">☕</span></div><h3>Food Ordering System</h3><p>A Java console application organised around menu files and an admin panel, practising object-oriented programming and application structure.</p><div class="tags"><span class="tag">Java</span><span class="tag">OOP</span></div></article>
+    <article class="card project"><div class="project-top"><span>PROJECT 04</span><span class="project-icon">⌁</span></div><h3>Intelligent Plant Watering System</h3><p>An Arduino-based automation project exploring sensor readings and water-pump control for smarter plant care.</p><div class="tags"><span class="tag">Arduino</span><span class="tag">Sensors</span><span class="tag">Embedded systems</span></div></article>
+  </div>
+</div></section>
+
+<section id="learning"><div class="wrap">
+  <div class="section-top"><div class="kicker">What's next</div><h2>Areas I'm exploring</h2></div>
+  <div class="learning-grid">
+    <div class="card learning-card"><h3>Application security</h3><p>Learning secure development, vulnerability assessment, and responsible security testing in authorised environments.</p></div>
+    <div class="card learning-card"><h3>Backend engineering</h3><p>Practising APIs, databases, Python tooling, and maintainable application architecture.</p></div>
+    <div class="card learning-card"><h3>Networks &amp; systems</h3><p>Strengthening networking fundamentals, Linux skills, protocols, and practical troubleshooting.</p></div>
+  </div>
+</div></section>
+
+<section id="contact"><div class="wrap">
+  <div class="contact-panel">
+    <div><div class="kicker">Get in touch</div><h2>Let's build something meaningful.</h2><p>Open to collaboration, learning opportunities, and connecting with fellow developers.</p></div>
+    <div class="contact-links">
+      <a class="btn primary" href="mailto:hossainwork171@gmail.com">✉ Email</a>
+      <a class="btn" href="https://github.com/fahimhossain171" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+      <a class="btn" href="https://www.linkedin.com/in/fahim-hossain17/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+    </div>
+  </div>
+</div></section>
+</main>
+<footer class="wrap"><span>© <span id="year"></span> Fahim Hossain. All rights reserved.</span><div class="social-row"><a href="https://github.com/fahimhossain171" target="_blank" rel="noopener noreferrer">GitHub</a><a href="https://www.linkedin.com/in/fahim-hossain17/" target="_blank" rel="noopener noreferrer">LinkedIn</a><a href="mailto:hossainwork171@gmail.com">Email</a></div></footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+</html>
